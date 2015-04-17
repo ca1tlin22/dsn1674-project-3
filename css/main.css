@@ -1,0 +1,11 @@
+html{
+  width: 100%;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+  padding: 0em;
+  margin: 0em;
+}
+
+*, *::before, *::after{
+  box-sizing: inherit;
+}
