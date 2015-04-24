@@ -109,7 +109,7 @@ p{
   margin: 0em;
 }
 
-.specials-text li{
+.specials-text dl{
   display: inline-block;
   list-style: none;
   width: 100%;
@@ -122,16 +122,18 @@ p{
 
 .specials-text dd{
   float: right;
+  clear: right;
 }
 
 .specials-text dt{
   float: left;
+  clear: left;
 }
 
 
 
 .specials-text{
-  padding: 0em .5em 2em .5em;
+  padding: 0em .5em 1em .5em;
   margin: 0em;
 }
 
