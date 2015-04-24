@@ -39,7 +39,6 @@ body{
 
 img{
   padding: 0em;
-  margin: 0em;
   width: 100%;
   display: block;
 }
@@ -152,19 +151,49 @@ p{
   padding: 1em .5em 0em .5em;
 }
 
+.fb{
+  width: 20%;
+  padding: .5em 1em .5em 1em;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  float: left;
+  left: 100px;
+}
+
+.insta{
+  width: 20%;
+  padding: .5em 1em .5em 1em;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  float: right;
+  right: 100px;
+}
+
+.logos{
+  display: inline-block;
+  width: 100%;
+  float: left;
+}
+
 footer{
   background-color: #000;
   color: #fff;
   text-align: center;
-  margin: 0em;
   padding: .5em;
   font-family: 'Satisfy', cursive;
   font-size: 1rem;
 }
 
 footer p{
-  padding: .5em;
+  padding: .5em .5em 0em .5em;
   margin: 0em;
+}
+
+.copy{
+  font-size: .5rem;
+  font-family: 'Raleway', sans-serif;
 }
 
 footer a{
